@@ -1,0 +1,404 @@
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 05/29/24 07:45:41 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+**** File: C:\Users\jiahuic\Dropbox (University of Michigan)\V2G_PJM\Models_reserve3\LoadData.gdx
+**** Msg : No such file or directory
+   4  $GDXIN LoadData.gdx
+****                    $510
+**** 510  Unable to open gdx file for $GDXIN
+  28  $LOAD t loadTCR1 loadTCR2 loadTCR3 loadTCR4 loadTCR5 TI12max TI13max TI15max TI52max TI23max TI34max solarTCR1 solarTCR2 solarTCR3 solarTCR4 solarTCR5 windTCR1 windTCR2 windTCR3 windTCR4 windTCR5
+****      $502
+**** 502  GDXIN  file not open - ignore rest of line
+**** File: C:\Users\jiahuic\Dropbox (University of Michigan)\V2G_PJM\Models_reserve3\VehData.gdx
+**** Msg : No such file or directory
+  32  $GDXIN VehData.gdx
+****                   $510
+**** 510  Unable to open gdx file for $GDXIN
+  43  $LOAD v a vAvailable vMiles vNum vInitSOC vBattery vCR vEff
+****      $502
+**** 502  GDXIN  file not open - ignore rest of line
+  49  v1.t13,v2.t13,v3.t7,v4.t8,v5.t25,v6.t16,v7.t14,v8.t6,v9.t8,v10.t8,v11.t10,v12.t9,v13.t25,v14.t8,v15.t18
+****   $361,362
+**** 361  Values for domain 1 are unknown - no checking possible
+**** 362  Values for domain 2 are unknown - no checking possible
+**** File: C:\Users\jiahuic\Dropbox (University of Michigan)\V2G_PJM\Models_reserve3\GenData.gdx
+**** Msg : No such file or directory
+  53  $GDXIN GenData.gdx
+****                   $510
+**** 510  Unable to open gdx file for $GDXIN
+  76  $LOAD g gTCR1 gTCR2 gTCR3 gTCR4 gTCR5 gInitState gReserveCost gInitGen gMinCapacity gCapacity gVC gNLC gRampRate gMinUp gMinDown gOntime gDowntime gStartupC
+****      $502
+**** 502  GDXIN  file not open - ignore rest of line
+**** File: C:\Users\jiahuic\Dropbox (University of Michigan)\V2G_PJM\Models_reserve3\StorageData.gdx
+**** Msg : No such file or directory
+  80  $GDXIN StorageData.gdx
+****                       $510
+**** 510  Unable to open gdx file for $GDXIN
+  93  $LOAD s sTCR1 sTCR2 sTCR3 sTCR4 sTCR5 sSOCmax sRampRate sChargeEff sDischargeEff sInitSOC
+****      $502
+**** 502  GDXIN  file not open - ignore rest of line
+  96  tOpt(t) = yes$(ord(t) gt 1);
+****       $352          $141
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 161  windTCRact1.lo(t) = min(0,windTCR1(t));
+****                 $352              $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 162  windTCRact2.lo(t) = min(0,windTCR2(t));
+****                 $352              $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 163  windTCRact3.lo(t) = min(0,windTCR3(t));
+****                 $352              $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 164  windTCRact4.lo(t) = min(0,windTCR4(t));
+****                 $352              $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 165  windTCRact5.lo(t) = min(0,windTCR5(t));
+****                 $352              $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 166  windTCRact1.up(t) = windTCR1(t);
+****                 $352          $352
+**** 352  Set has not been initialized
+ 167  windTCRact2.up(t) = 0;
+****                 $352
+**** 352  Set has not been initialized
+ 168  windTCRact3.up(t) = windTCR3(t);
+****                 $352          $352
+**** 352  Set has not been initialized
+ 169  windTCRact4.up(t) = 0;
+****                 $352
+**** 352  Set has not been initialized
+ 170  windTCRact5.up(t) = windTCR5(t);
+****                 $352          $352
+**** 352  Set has not been initialized
+ 172  solarTCRact1.lo(t) = min(0,solarTCR1(t));
+****                  $352               $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 173  solarTCRact2.lo(t) = min(0,solarTCR2(t));
+****                  $352               $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 174  solarTCRact3.lo(t) = min(0,solarTCR3(t));
+****                  $352               $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 175  solarTCRact4.lo(t) = min(0,solarTCR4(t));
+****                  $352               $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 176  solarTCRact5.lo(t) = min(0,solarTCR5(t));
+****                  $352               $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 177  solarTCRact1.up(t) = solarTCR1(t);
+****                  $352           $352
+**** 352  Set has not been initialized
+ 178  solarTCRact2.up(t) = 0;
+****                  $352
+**** 352  Set has not been initialized
+ 179  solarTCRact3.up(t) = solarTCR3(t);
+****                  $352           $352
+**** 352  Set has not been initialized
+ 180  solarTCRact4.up(t) = 0;
+****                  $352
+**** 352  Set has not been initialized
+ 181  solarTCRact5.up(t) = solarTCR5(t);
+****                  $352           $352
+**** 352  Set has not been initialized
+ 183  sCharge.lo(s,t) = 0;
+****             $352,352
+**** 352  Set has not been initialized
+ 184  sCharge.up(s,t) = sRampRate(s);
+****             $352,352       $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 185  sDischarge.lo(s,t) = 0;
+****                $352,352
+**** 352  Set has not been initialized
+ 186  sDischarge.up(s,t) = sRampRate(s);
+****                $352,352         $352
+**** 352  Set has not been initialized
+ 187  sSOC.lo(s,t) = sSOCmax(s)* 0.1;
+****          $352,352     $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 188  sSOC.up(s,t) = sSOCmax(s)* 0.9;
+****          $352,352       $352
+**** 352  Set has not been initialized
+ 190  vCharge.up(v,t,a) = vNum(v,a)*vCR(v)*vAvailable(t,v);
+****             $352,352,352$141,352,352,141,352   $141,300
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 300  Remaining errors not printed for this line
+**** 352  Set has not been initialized
+ 191  vDischarge.up(v,t,a) = vNum(v,a)*vCR(v)*vAvailable(t,v);
+****                $352,352,352  $352,352 $352          $352,352
+**** 352  Set has not been initialized
+ 192  vSOC.lo(v,t,a) = 0.1*vNum(v,a)*vBattery(v);
+****          $352,352,352      $352,352    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 193  vSOC.up(v,t,a) = 0.9*vNum(v,a)*vBattery(v);
+****          $352,352,352      $352,352      $352
+**** 352  Set has not been initialized
+ 198  TI12.lo(t)$(ord(t) gt 1) = -2*abs(TI12max(t));
+****          $352    $141                    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 199  TI12.up(t)$(ord(t) gt 1) = 2*abs(TI12max(t));
+****          $352    $141                     $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 200  TI13.lo(t)$(ord(t) gt 1) = -2*abs(TI13max(t));
+****          $352    $141                    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 201  TI13.up(t)$(ord(t) gt 1) = 2*abs(TI13max(t));
+****          $352    $141                     $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 202  TI15.lo(t)$(ord(t) gt 1) = -2*abs(TI15max(t));
+****          $352    $141                    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 203  TI15.up(t)$(ord(t) gt 1) = 2*abs(TI15max(t));
+****          $352    $141                     $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 204  TI52.lo(t)$(ord(t) gt 1) = -2*abs(TI52max(t));
+****          $352    $141                    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 205  TI52.up(t)$(ord(t) gt 1) = 2*abs(TI52max(t));
+****          $352    $141                     $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 206  TI23.lo(t)$(ord(t) gt 1) = -2*abs(TI23max(t));
+****          $352    $141                    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 207  TI23.up(t)$(ord(t) gt 1) = 2*abs(TI23max(t));
+****          $352    $141                     $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 208  TI34.lo(t)$(ord(t) gt 1) = -2*abs(TI34max(t));
+****          $352    $141                    $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 209  TI34.up(t)$(ord(t) gt 1) = 2*abs(TI34max(t));
+****          $352    $141                     $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 212  sSOC.fx(s, t)$(ord(t) eq 1) = sInitSOC(s);
+****          $352,352   $141              $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 214  sCharge.fx(s,t)$(ord(t) eq 1) = 0;
+****             $352,352  $141
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 215  sDischarge.fx(s,t)$(ord(t) eq 1) = 0;
+****                $352,352  $141
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 216  if((sum(g, gInitGen(g)) > 0),
+****          $352      $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 217           U.fx(g, t)$(ord(t) eq 1) = gInitState(g);
+****                $352,352   $141                $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 218           gLevel.fx(g, t)$(ord(t) eq 1) = gInitGen(g);
+****                     $352,352   $141                $352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 221  gLevel.up(g,t) = gCapacity(g);
+****            $352,352       $141,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 226  vSOC.fx(v,t,a)$(ord(t) eq 1) = vInitSOC(v,a);
+****          $352,352,352$141              $141,352,352
+**** 141  Symbol declared but no values have been assigned. Check for missing
+****         data definition, assignment, data loading or implicit assignment
+****         via a solve statement.
+****         A wild shot: You may have spurious commas in the explanatory
+****         text of a declaration. Check symbol reference list.
+**** 352  Set has not been initialized
+ 376  PHORUM.OptFile=1;
+ 377  Option rMIP = OSIGUROBI;
+ 378  Option Threads = 46;
+ 379  Option asyncSolLst = 0;
+ 380  Option limrow=0;
+ 381  Option limcol=0;
+ 382  Solve PHORUM using rMIP minimizing SysCost;
+****                                            $257
+**** 257  Solve statement not checked because of previous errors
+ 383   
+ 384   
+ 385  gap =  abs(PHORUM.objest - PHORUM.objval)/(1e-10+abs(PHORUM.objval));
+ 386  modelStatus = PHORUM.modelStat;
+ 387  solveStatus = PHORUM.solveStat;
+ 388   
+ 389  execute_unload "results.gdx" modelStatus solveStatus gap gLevel U HourlyCost gVC sReserve gReserve vReserve sDischarge sCharge sSOC loadTCR1 loadTCR2 loadTCR3 loadTCR4 loadTCR5 windTCRact1 windTCRact2 windTCRact3 windTCRact4 windTCRact5 solarTCRact1 solarTCRact2 solarTCRact3 solarTCRact4 solarTCRact5 vSOC.l vCharge.l vDischarge.l  SUPPLYTCR1c.m SUPPLYTCR2c.m SUPPLYTCR3c.m SUPPLYTCR4c.m SUPPLYTCR5c.m RESERVETCR1c.m RESERVETCR2c.m RESERVETCR5c.m RESERVETCR1spinc.m RESERVETCR2spinc.m RESERVETCR5spinc.m TI12 TI15 TI13 TI52 TI23 TI34 TI12max loadTCR5 TI13max TI15max TI52max TI23max TI34max gReservespin sReservespin vReservespin
+
+**** 186 ERROR(S)   0 WARNING(S)
+
+
+COMPILATION TIME     =        0.015 SECONDS      3 MB  42.5.0 cf11b917 WEX-WEI
+
+
+USER: MUD- 5 User License                            G220428|0002AO-GEN
+      University of Michigan, School for Environment and SustDC15152-S1
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\jiahuic\Dropbox (University of Michigan)\V2G_PJM\Models_reserve3\PHORUM_Trans_V2G_ht.gms
+Output     C:\Users\jiahuic\Dropbox (University of Michigan)\V2G_PJM\Models_reserve3\PHORUM_Trans_V2G_ht.lst
+
+**** USER ERROR(S) ENCOUNTERED

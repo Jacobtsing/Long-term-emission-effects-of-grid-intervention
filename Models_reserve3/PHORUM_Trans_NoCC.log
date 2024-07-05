@@ -1,0 +1,466 @@
+--- Job PHORUM_Trans_NoCC.gms Start 07/10/22 09:30:29 31.2.0 r8ba6aed WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\win64\31.2\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    PageSize 0
+    ScrDir U:\PJM_updated\Models_reserve2\225a\
+    SysDir C:\GAMS\win64\31.2\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+GAMS 31.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     G200629/0001AO-WIN
+          Carnegie Mellon University, Engineering and Public Policy DC14988
+          C:\GAMS\win64\31.2\gamslice.txt
+--- Starting compilation
+--- PHORUM_Trans_NoCC.gms(4) 2 Mb
+*** GDXIN failed U:\PJM_updated\Models_reserve2\LoadData.gdx
+*** Msg: No such file or directory
+--- PHORUM_Trans_NoCC.gms(4) 2 Mb 1 Error
+*** Error 510 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Unable to open gdx file for $GDXIN
+--- PHORUM_Trans_NoCC.gms(22) 2 Mb 2 Errors
+*** Error 502 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    GDXIN  file not open - ignore rest of line
+--- PHORUM_Trans_NoCC.gms(30) 2 Mb
+*** GDXIN failed U:\PJM_updated\Models_reserve2\GenData.gdx
+*** Msg: No such file or directory
+--- PHORUM_Trans_NoCC.gms(30) 2 Mb 3 Errors
+*** Error 510 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Unable to open gdx file for $GDXIN
+--- PHORUM_Trans_NoCC.gms(52) 2 Mb 4 Errors
+*** Error 502 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    GDXIN  file not open - ignore rest of line
+--- PHORUM_Trans_NoCC.gms(56) 2 Mb
+*** GDXIN failed U:\PJM_updated\Models_reserve2\StorageData.gdx
+*** Msg: No such file or directory
+--- PHORUM_Trans_NoCC.gms(56) 2 Mb 5 Errors
+*** Error 510 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Unable to open gdx file for $GDXIN
+--- PHORUM_Trans_NoCC.gms(69) 2 Mb 6 Errors
+*** Error 502 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    GDXIN  file not open - ignore rest of line
+--- PHORUM_Trans_NoCC.gms(72) 2 Mb 8 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- PHORUM_Trans_NoCC.gms(120) 2 Mb 11 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(121) 2 Mb 14 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(122) 2 Mb 17 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(123) 2 Mb 20 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(124) 2 Mb 23 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(126) 2 Mb 25 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(127) 2 Mb 27 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(128) 2 Mb 29 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(129) 2 Mb 31 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(130) 2 Mb 33 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(132) 2 Mb 35 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(133) 2 Mb 39 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(134) 2 Mb 41 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(135) 2 Mb 44 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(136) 2 Mb 46 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(137) 2 Mb 50 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(139) 2 Mb 54 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(140) 2 Mb 57 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(141) 2 Mb 61 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(142) 2 Mb 64 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(143) 2 Mb 68 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(144) 2 Mb 71 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(145) 2 Mb 75 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(146) 2 Mb 78 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(147) 2 Mb 82 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(148) 2 Mb 85 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(149) 2 Mb 89 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(150) 2 Mb 92 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(153) 2 Mb 97 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(154) 2 Mb 101 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(155) 2 Mb 104 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- PHORUM_Trans_NoCC.gms(156) 2 Mb 107 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- PHORUM_Trans_NoCC.gms(157) 2 Mb 110 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(158) 2 Mb 115 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(159) 2 Mb 119 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(162) 2 Mb 123 Errors
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+*** Error 141 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 352 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Set has not been initialized
+--- PHORUM_Trans_NoCC.gms(285) 2 Mb 124 Errors
+*** Error 257 in U:\PJM_updated\Models_reserve2\PHORUM_Trans_NoCC.gms
+    Solve statement not checked because of previous errors
+--- PHORUM_Trans_NoCC.gms(298) 2 Mb 124 Errors
+*** Status: Compilation error(s)
+--- Job PHORUM_Trans_NoCC.gms Stop 07/10/22 09:30:29 elapsed 0:00:00.062

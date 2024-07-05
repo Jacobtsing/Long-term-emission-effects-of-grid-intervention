@@ -1,0 +1,6 @@
+presolve=2
+threads=78
+timelimit=1800
+displayinterval=5
+crossover=0
+method=2
